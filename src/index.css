@@ -2,14 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  body {
-    @apply antialiased text-gray-900;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
-@layer utilities {
-  .bg-gradient-blur {
-    backdrop-filter: blur(8px);
-  }
+body {
+  @apply bg-black text-white;
 }
